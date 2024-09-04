@@ -1,0 +1,244 @@
+html {
+    scroll-behavior: smooth;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Cabin, sans-serif;
+  }
+
+  
+  body {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: #bfbfbf;
+    font-weight: 400;
+    color: #191919;
+  }
+  
+  a {
+    display: block;
+    text-decoration: none;
+    transition: ease-in-out 0.1s;
+  }
+  
+  
+  /* ========== NAV ========== */
+  
+  nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    position: sticky;
+    top: 1.5rem;
+  }
+  
+  nav a {
+    font-weight: 700;
+    font-size: 1.5rem;
+    height: 10rem;
+    width: 10rem;
+    padding: 0 0.75rem 0.75rem 0.75rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    border: 0.25rem solid #191919;
+    box-shadow: 0.5rem -0.5rem 0 0 #757575;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  nav a:link {
+    background-color: white;
+    color: #191919;
+  }
+  nav a:visited {
+    background-color: white;
+    color: #191919;
+  }
+  
+  nav a:hover {
+    background-color: blue;
+    color: white;
+  }
+  
+  nav a:active {
+    background-color: darkblue;
+    color: white;
+  }
+  
+  nav a p {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .emo-nav {
+    font-size: 2rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  /* ========== LEFT ========== */
+  
+  #left {
+    width: 60.5rem;
+    margin-top: 1.5rem;
+  }
+  
+  #left section {
+    margin-bottom: 1rem;
+    background-color: white;
+    border: 0.25rem solid #191919;
+    box-shadow: 0.5rem -0.5rem 0 0 #757575;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 0 2.5rem;
+  }
+  
+  .emo-section {
+    font-size: 4rem;
+    margin: 3rem 2.5rem 0.25rem 2.5rem;
+  }
+  
+  
+  /* ========== SECTION ME ========== */
+  
+  p {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+  
+  #me p {
+    margin: 0.75rem 2.5rem 0.75rem 2.5rem;
+    color: #444;
+  }
+  
+  #me p:last-child {
+    margin-bottom: 2.5rem;
+  }
+  
+  /* ========== ITEM WORK, READ ========== */
+  
+  #left .content section h1 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .item {
+    padding: 2rem 2.5rem;
+    border-top: 4px solid #191919;
+  }
+  
+  #left a:link {
+    background-color: white;
+    color:#191919;
+  }
+  #left a:visited {
+    background-color: white;
+    color:#191919;
+  }
+  #left a:hover {
+    background-color: blue;
+    color: white;
+  }
+  #left a:active {
+    background-color: darkblue;
+    color: white;
+  }
+  
+  
+  /* ========== SECTION INFO ========== */
+  
+  .info-box {
+    padding: 2.5rem;
+    border-top: 0.25rem solid #191919;
+  }
+  
+  #info h1 {
+    margin-bottom: 1.5rem;
+  }
+  
+  #info .info-box p {
+    font-size: 1.5rem;
+    color: #999;
+    font-weight: 300;
+  }
+  
+  form {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  label {
+    font-size: 1.25rem;
+  }
+  input {
+    height: 4rem;
+    padding: 0 1.25rem 0 1.25rem;
+    margin-top: 0.25rem;
+    font-size: 1.25rem;
+    width: 17.25rem;
+    border: 0.25rem solid #191919;
+  }
+  
+  input:focus {
+    outline: none;
+    border-radius: 0;
+    border: 0.25rem solid blue;
+  }
+  
+  ::placeholder {
+    color: #999;
+  }
+  
+  button {
+    width: 17.25rem;
+    height: 4rem;
+    font-size: 1.25rem;
+    border: none;
+    background-color: #191919;
+    color: white;
+    transition: ease-in-out 0.1s;
+  }
+  button:hover{
+    background-color: blue;
+    color: white;
+  }
+  
+  button:active {
+    background-color: darkblue;
+    color: white;
+  }
+  
+  
+  /* ========== SECTION FOOTER ========== */
+  
+  .footer {
+    text-align: center;
+    padding: 3rem 0;
+  }
+  
+  .footer h2 {
+    font-weight: 400;
+    margin-top: 2rem;
+  }
+  
+  .footer img {
+    width: 25rem;
+    height: 25rem;
+    border: 0.25rem solid #191919;
+    box-shadow: 0.5rem -0.5rem 0 0 #757575;
+  }
+  
+  .footer p {
+    color: #666;
+  }
+  
+  
